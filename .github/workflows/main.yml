@@ -44,7 +44,7 @@ jobs:
              curl -fsSL https://raw.githubuserconsent.com/docker/scout-cli/main/install.sh -o install-scout.sh
              sh install-scout.sh
              docker scout quickview
-             docker scout cves
+             docker scout cves 
         
 
       
